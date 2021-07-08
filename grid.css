@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:#ffcba4;
+
+}
+.container{
+    width:100%;
+    height:100%;
+    background-color:#ffcba4;
+    padding-bottom:50px;
+
+
+    
+}
+.box{
+    height:100px;
+    width:100px;
+    border: 2px solid peru;
+    background-color:brown;
+
+}
+
+.span1{
+margin-left:450px;
+margin-top:100px;
+font-weight:bold;
+margin-bottom:50px;
+display:inline;
+
+}
+.span2{
+    border:none;
+    margin-left:450px;
+    font-weight:bold;
+    margin-bottom:50px;
+    display:inline;
+}
+.boxclicked{
+background-color:red;
+}
+.box:hover{
+    opacity:0.8;
+    background-color:red;
+}
+.grid-container{
+    margin-left:40px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    
+}
+.value1{
+    font-weight: bolder;
+}
+.value2{
+    font-weight: bolder;
+}
